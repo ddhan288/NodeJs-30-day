@@ -12,7 +12,6 @@ function greetHandler (req , res ){
     }
     
     
-    
 }
 app.get ('/greet', greetHandler);
 const port = process.env.PORT || 3000
